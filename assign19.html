@@ -9,7 +9,187 @@
 </head>
 
 <body>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poetsen+One&family=Signika:wght@300..700&display=swap');
+
+  .signika {
+    font-family: "Signika", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-variation-settings:
+      "GRAD" 0;
+  }
+  
+body{
+   background-color: #272424a9;
+   margin: 0;
+   position: relative;
+}
+
+.main-body{
+  height: 750px;
+  
+}
+
+.title{
+  text-align: center;
+  font-size: 20px;
+  font-size: 40px;
+}
+
+.body-items{
+  display: flex;
+  justify-content: center;
+}
+
+.body-items-card{
+  margin: 20px;
+  height: 450px;
+  width: 350px;
+  border-radius: 10px;
+  background-position: center;
+  text-decoration: none;
+  background-size:cover;
+}
+
+.body-items-card:hover{
+  box-shadow: 0 0 10px 5px #2df483;
+  background-size: contain;
+}
+.cofee{
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Cappuccino_at_Sightglass_Coffee.jpg/640px-Cappuccino_at_Sightglass_Coffee.jpg");
+}
+
+.burger{
+  background-image: url("https://www.recipetineats.com/wp-content/uploads/2023/09/Crispy-fried-chicken-burgers_5.jpg");
+}
+
+.sandwitch{
+  background-image: url("https://staticcookist.akamaized.net/wp-content/uploads/sites/22/2021/12/egg1-1200x675.jpg");
+}
+
+.pizza{
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFb-QOETAw_2smnhPtCqsh8A1KTeBnpYEBTQ&s");
+}
+
+.body-card-text{
+  text-align: center;
+  font-size: 50px;
+  color: #fff;  
+}
+
+ @media screen and (max-width: 600px) 
+  { 
+    .body{
+      position: relative;
+      
+    }
+  
+  .main-body{
+    height: 50%
+  }
+  .body-items{
+  display: flex;
+  flex-wrap: wrap;
+  }
+  
+  .body-items-card{
+  margin: 20px;
+  height: 400px;
+  width: 300px;
+  border-radius: 10px;
+  background-position: center;
+  text-decoration: none;
+  }
+}
+
+@media screen and (min-width: 601px) and (max-width: 768px) 
+{ 
+  body{
+  position: relative;
+  
+}
+
+.main-body{
+  height: 50%
+}
+.body-items{
+display: flex;
+flex-wrap: wrap;
+}
+
+.body-items-card{
+margin: 20px;
+height: 400px;
+width: 300px;
+border-radius: 10px;
+background-position: center;
+text-decoration: none;
+}
+}
+
+@media screen and (min-width: 769px) and (max-width: 992px) {
+  .body{
+    position: relative;
     
+  }
+
+.main-body{
+  height: 850px;
+}
+.body-items{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.body-items-card{
+  margin: 30px;
+  height: 400px;
+  width: 300px;
+  border-radius: 10px;
+  background-position: center;
+  text-decoration: none;
+}
+}
+
+@media screen and (min-width: 993px) and (max-width: 1200px) {
+  .body{
+    position: relative;
+  }
+.body-items{
+  display: flex;
+  justify-content: space-around;
+}
+
+.body-items-card{
+  margin: 30px;
+  height: 400px;
+  width: 300px;
+  border-radius: 10px;
+  background-position: center;
+  text-decoration: none;
+}
+}
+@media screen and (min-width: 1201px) and (max-width: 1700px){
+  .body{
+    position: relative;
+  }
+.body-items{
+  display: flex;
+  justify-content: space-around;
+}
+.body-items-card{
+  margin: 20px;
+  height: 400px;
+  width: 300px;
+  border-radius: 10px;
+  background-position: center;
+  text-decoration: none;
+}
+
+}
+    </style>
     <div class="container">
         <div class="main-body">
 
